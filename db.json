@@ -63,25 +63,6 @@
             }
           }
         },
-        "dairy": {
-          "label": "Dairy",
-          "type": "radios",
-          "options": {
-            "milk": {
-              "label": "Milk",
-              "price": 0,
-              "default": true
-            },
-            "coconut": {
-              "label": "Coconut milk",
-              "price": 3
-            },
-            "almound": {
-              "label": "Almound milk",
-              "price": 3
-            }
-          }
-        },
         "flavour": {
           "label": "Flavour",
           "type": "radios",
@@ -123,8 +104,27 @@
               "price": 4
             },
             "sugarfree": {
-              "label": "Sugarr free",
+              "label": "Sugar free",
               "price": 0
+            }
+          }
+        },
+          "dairy": {
+          "label": "Dairy",
+          "type": "radios",
+          "options": {
+            "milk": {
+              "label": "Milk",
+              "price": 0,
+              "default": true
+            },
+            "coconut": {
+              "label": "Coconut milk",
+              "price": 3
+            },
+            "almound": {
+              "label": "Almound milk",
+              "price": 3
             }
           }
         },
